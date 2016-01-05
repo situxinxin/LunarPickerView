@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33DB94E61C3BB20E00C26000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB94E51C3BB20E00C26000 /* main.m */; };
+		33DB94E91C3BB20E00C26000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB94E81C3BB20E00C26000 /* AppDelegate.m */; };
+		33DB94EC1C3BB20E00C26000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB94EB1C3BB20E00C26000 /* ViewController.m */; };
+		33DB94EF1C3BB20E00C26000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DB94ED1C3BB20E00C26000 /* Main.storyboard */; };
+		33DB94F11C3BB20E00C26000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DB94F01C3BB20E00C26000 /* Assets.xcassets */; };
+		33DB94F41C3BB20E00C26000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DB94F21C3BB20E00C26000 /* LaunchScreen.storyboard */; };
+		33DB94FF1C3BB20E00C26000 /* XXTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB94FE1C3BB20E00C26000 /* XXTimePickerTests.m */; };
+		33DB950A1C3BB20E00C26000 /* XXTimePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB95091C3BB20E00C26000 /* XXTimePickerUITests.m */; };
+		33DB97FA1C3BB2E000C26000 /* IDJCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97EB1C3BB2E000C26000 /* IDJCalendar.m */; };
+		33DB97FB1C3BB2E000C26000 /* IDJCalendarUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97ED1C3BB2E000C26000 /* IDJCalendarUtil.mm */; };
+		33DB97FC1C3BB2E000C26000 /* IDJChineseCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97EF1C3BB2E000C26000 /* IDJChineseCalendar.mm */; };
+		33DB97FD1C3BB2E000C26000 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F11C3BB2E000C26000 /* ChineseCalendarDB.cpp */; };
+		33DB97FE1C3BB2E000C26000 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F31C3BB2E000C26000 /* ChineseDate.cpp */; };
+		33DB97FF1C3BB2E000C26000 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F51C3BB2E000C26000 /* SolarDate.cpp */; };
+		33DB98001C3BB2E000C26000 /* XXTimerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F81C3BB2E000C26000 /* XXTimerPicker.m */; };
+		33DB98011C3BB2E000C26000 /* XXTimerPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DB97F91C3BB2E000C26000 /* XXTimerPicker.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33DB94FB1C3BB20E00C26000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DB94D91C3BB20E00C26000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DB94E01C3BB20E00C26000;
+			remoteInfo = XXTimePicker;
+		};
+		33DB95061C3BB20E00C26000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DB94D91C3BB20E00C26000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DB94E01C3BB20E00C26000;
+			remoteInfo = XXTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DB94E11C3BB20E00C26000 /* XXTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DB94E51C3BB20E00C26000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33DB94E71C3BB20E00C26000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33DB94E81C3BB20E00C26000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33DB94EA1C3BB20E00C26000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33DB94EB1C3BB20E00C26000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33DB94EE1C3BB20E00C26000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33DB94F01C3BB20E00C26000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33DB94F31C3BB20E00C26000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33DB94F51C3BB20E00C26000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DB94FA1C3BB20E00C26000 /* XXTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DB94FE1C3BB20E00C26000 /* XXTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTimePickerTests.m; sourceTree = "<group>"; };
+		33DB95001C3BB20E00C26000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DB95051C3BB20E00C26000 /* XXTimePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXTimePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DB95091C3BB20E00C26000 /* XXTimePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTimePickerUITests.m; sourceTree = "<group>"; };
+		33DB950B1C3BB20E00C26000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DB97EA1C3BB2E000C26000 /* IDJCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendar.h; sourceTree = "<group>"; };
+		33DB97EB1C3BB2E000C26000 /* IDJCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJCalendar.m; sourceTree = "<group>"; };
+		33DB97EC1C3BB2E000C26000 /* IDJCalendarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendarUtil.h; sourceTree = "<group>"; };
+		33DB97ED1C3BB2E000C26000 /* IDJCalendarUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJCalendarUtil.mm; sourceTree = "<group>"; };
+		33DB97EE1C3BB2E000C26000 /* IDJChineseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJChineseCalendar.h; sourceTree = "<group>"; };
+		33DB97EF1C3BB2E000C26000 /* IDJChineseCalendar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJChineseCalendar.mm; sourceTree = "<group>"; };
+		33DB97F11C3BB2E000C26000 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		33DB97F21C3BB2E000C26000 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		33DB97F31C3BB2E000C26000 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		33DB97F41C3BB2E000C26000 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		33DB97F51C3BB2E000C26000 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		33DB97F61C3BB2E000C26000 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
+		33DB97F71C3BB2E000C26000 /* XXTimerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTimerPicker.h; sourceTree = "<group>"; };
+		33DB97F81C3BB2E000C26000 /* XXTimerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTimerPicker.m; sourceTree = "<group>"; };
+		33DB97F91C3BB2E000C26000 /* XXTimerPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXTimerPicker.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DB94DE1C3BB20E00C26000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB94F71C3BB20E00C26000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB95021C3BB20E00C26000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DB94D81C3BB20E00C26000 = {
+			isa = PBXGroup;
+			children = (
+				33DB94E31C3BB20E00C26000 /* XXTimePicker */,
+				33DB94FD1C3BB20E00C26000 /* XXTimePickerTests */,
+				33DB95081C3BB20E00C26000 /* XXTimePickerUITests */,
+				33DB94E21C3BB20E00C26000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33DB94E21C3BB20E00C26000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DB94E11C3BB20E00C26000 /* XXTimePicker.app */,
+				33DB94FA1C3BB20E00C26000 /* XXTimePickerTests.xctest */,
+				33DB95051C3BB20E00C26000 /* XXTimePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DB94E31C3BB20E00C26000 /* XXTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				33DB97E81C3BB2E000C26000 /* timerPicker完结版 */,
+				33DB94E71C3BB20E00C26000 /* AppDelegate.h */,
+				33DB94E81C3BB20E00C26000 /* AppDelegate.m */,
+				33DB94EA1C3BB20E00C26000 /* ViewController.h */,
+				33DB94EB1C3BB20E00C26000 /* ViewController.m */,
+				33DB94ED1C3BB20E00C26000 /* Main.storyboard */,
+				33DB94F01C3BB20E00C26000 /* Assets.xcassets */,
+				33DB94F21C3BB20E00C26000 /* LaunchScreen.storyboard */,
+				33DB94F51C3BB20E00C26000 /* Info.plist */,
+				33DB94E41C3BB20E00C26000 /* Supporting Files */,
+			);
+			path = XXTimePicker;
+			sourceTree = "<group>";
+		};
+		33DB94E41C3BB20E00C26000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DB94E51C3BB20E00C26000 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33DB94FD1C3BB20E00C26000 /* XXTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				33DB94FE1C3BB20E00C26000 /* XXTimePickerTests.m */,
+				33DB95001C3BB20E00C26000 /* Info.plist */,
+			);
+			path = XXTimePickerTests;
+			sourceTree = "<group>";
+		};
+		33DB95081C3BB20E00C26000 /* XXTimePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33DB95091C3BB20E00C26000 /* XXTimePickerUITests.m */,
+				33DB950B1C3BB20E00C26000 /* Info.plist */,
+			);
+			path = XXTimePickerUITests;
+			sourceTree = "<group>";
+		};
+		33DB97E81C3BB2E000C26000 /* timerPicker完结版 */ = {
+			isa = PBXGroup;
+			children = (
+				33DB97E91C3BB2E000C26000 /* datepicker */,
+				33DB97F01C3BB2E000C26000 /* solar_chinese_calendar */,
+				33DB97F71C3BB2E000C26000 /* XXTimerPicker.h */,
+				33DB97F81C3BB2E000C26000 /* XXTimerPicker.m */,
+				33DB97F91C3BB2E000C26000 /* XXTimerPicker.xib */,
+			);
+			path = "timerPicker完结版";
+			sourceTree = "<group>";
+		};
+		33DB97E91C3BB2E000C26000 /* datepicker */ = {
+			isa = PBXGroup;
+			children = (
+				33DB97EA1C3BB2E000C26000 /* IDJCalendar.h */,
+				33DB97EB1C3BB2E000C26000 /* IDJCalendar.m */,
+				33DB97EC1C3BB2E000C26000 /* IDJCalendarUtil.h */,
+				33DB97ED1C3BB2E000C26000 /* IDJCalendarUtil.mm */,
+				33DB97EE1C3BB2E000C26000 /* IDJChineseCalendar.h */,
+				33DB97EF1C3BB2E000C26000 /* IDJChineseCalendar.mm */,
+			);
+			path = datepicker;
+			sourceTree = "<group>";
+		};
+		33DB97F01C3BB2E000C26000 /* solar_chinese_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				33DB97F11C3BB2E000C26000 /* ChineseCalendarDB.cpp */,
+				33DB97F21C3BB2E000C26000 /* ChineseCalendarDB.h */,
+				33DB97F31C3BB2E000C26000 /* ChineseDate.cpp */,
+				33DB97F41C3BB2E000C26000 /* ChineseDate.h */,
+				33DB97F51C3BB2E000C26000 /* SolarDate.cpp */,
+				33DB97F61C3BB2E000C26000 /* SolarDate.h */,
+			);
+			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DB94E01C3BB20E00C26000 /* XXTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DB950E1C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePicker" */;
+			buildPhases = (
+				33DB94DD1C3BB20E00C26000 /* Sources */,
+				33DB94DE1C3BB20E00C26000 /* Frameworks */,
+				33DB94DF1C3BB20E00C26000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXTimePicker;
+			productName = XXTimePicker;
+			productReference = 33DB94E11C3BB20E00C26000 /* XXTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DB94F91C3BB20E00C26000 /* XXTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DB95111C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerTests" */;
+			buildPhases = (
+				33DB94F61C3BB20E00C26000 /* Sources */,
+				33DB94F71C3BB20E00C26000 /* Frameworks */,
+				33DB94F81C3BB20E00C26000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DB94FC1C3BB20E00C26000 /* PBXTargetDependency */,
+			);
+			name = XXTimePickerTests;
+			productName = XXTimePickerTests;
+			productReference = 33DB94FA1C3BB20E00C26000 /* XXTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33DB95041C3BB20E00C26000 /* XXTimePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DB95141C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerUITests" */;
+			buildPhases = (
+				33DB95011C3BB20E00C26000 /* Sources */,
+				33DB95021C3BB20E00C26000 /* Frameworks */,
+				33DB95031C3BB20E00C26000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DB95071C3BB20E00C26000 /* PBXTargetDependency */,
+			);
+			name = XXTimePickerUITests;
+			productName = XXTimePickerUITests;
+			productReference = 33DB95051C3BB20E00C26000 /* XXTimePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DB94D91C3BB20E00C26000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "司徒新新";
+				TargetAttributes = {
+					33DB94E01C3BB20E00C26000 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33DB94F91C3BB20E00C26000 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33DB94E01C3BB20E00C26000;
+					};
+					33DB95041C3BB20E00C26000 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33DB94E01C3BB20E00C26000;
+					};
+				};
+			};
+			buildConfigurationList = 33DB94DC1C3BB20E00C26000 /* Build configuration list for PBXProject "XXTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DB94D81C3BB20E00C26000;
+			productRefGroup = 33DB94E21C3BB20E00C26000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DB94E01C3BB20E00C26000 /* XXTimePicker */,
+				33DB94F91C3BB20E00C26000 /* XXTimePickerTests */,
+				33DB95041C3BB20E00C26000 /* XXTimePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DB94DF1C3BB20E00C26000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB94F41C3BB20E00C26000 /* LaunchScreen.storyboard in Resources */,
+				33DB98011C3BB2E000C26000 /* XXTimerPicker.xib in Resources */,
+				33DB94F11C3BB20E00C26000 /* Assets.xcassets in Resources */,
+				33DB94EF1C3BB20E00C26000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB94F81C3BB20E00C26000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB95031C3BB20E00C26000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DB94DD1C3BB20E00C26000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB94EC1C3BB20E00C26000 /* ViewController.m in Sources */,
+				33DB98001C3BB2E000C26000 /* XXTimerPicker.m in Sources */,
+				33DB97FB1C3BB2E000C26000 /* IDJCalendarUtil.mm in Sources */,
+				33DB97FA1C3BB2E000C26000 /* IDJCalendar.m in Sources */,
+				33DB97FD1C3BB2E000C26000 /* ChineseCalendarDB.cpp in Sources */,
+				33DB94E91C3BB20E00C26000 /* AppDelegate.m in Sources */,
+				33DB97FF1C3BB2E000C26000 /* SolarDate.cpp in Sources */,
+				33DB97FE1C3BB2E000C26000 /* ChineseDate.cpp in Sources */,
+				33DB94E61C3BB20E00C26000 /* main.m in Sources */,
+				33DB97FC1C3BB2E000C26000 /* IDJChineseCalendar.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB94F61C3BB20E00C26000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB94FF1C3BB20E00C26000 /* XXTimePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DB95011C3BB20E00C26000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB950A1C3BB20E00C26000 /* XXTimePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DB94FC1C3BB20E00C26000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DB94E01C3BB20E00C26000 /* XXTimePicker */;
+			targetProxy = 33DB94FB1C3BB20E00C26000 /* PBXContainerItemProxy */;
+		};
+		33DB95071C3BB20E00C26000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DB94E01C3BB20E00C26000 /* XXTimePicker */;
+			targetProxy = 33DB95061C3BB20E00C26000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33DB94ED1C3BB20E00C26000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DB94EE1C3BB20E00C26000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33DB94F21C3BB20E00C26000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DB94F31C3BB20E00C26000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33DB950C1C3BB20E00C26000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33DB950D1C3BB20E00C26000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DB950F1C3BB20E00C26000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XXTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33DB95101C3BB20E00C26000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XXTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33DB95121C3BB20E00C26000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XXTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXTimePicker.app/XXTimePicker";
+			};
+			name = Debug;
+		};
+		33DB95131C3BB20E00C26000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XXTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXTimePicker.app/XXTimePicker";
+			};
+			name = Release;
+		};
+		33DB95151C3BB20E00C26000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XXTimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XXTimePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33DB95161C3BB20E00C26000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XXTimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = situxinxin.XXTimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XXTimePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DB94DC1C3BB20E00C26000 /* Build configuration list for PBXProject "XXTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB950C1C3BB20E00C26000 /* Debug */,
+				33DB950D1C3BB20E00C26000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DB950E1C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB950F1C3BB20E00C26000 /* Debug */,
+				33DB95101C3BB20E00C26000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33DB95111C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB95121C3BB20E00C26000 /* Debug */,
+				33DB95131C3BB20E00C26000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33DB95141C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB95151C3BB20E00C26000 /* Debug */,
+				33DB95161C3BB20E00C26000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DB94D91C3BB20E00C26000 /* Project object */;
+}
