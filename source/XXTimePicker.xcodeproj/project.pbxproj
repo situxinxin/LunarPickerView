@@ -23,6 +23,9 @@
 		33DB97FF1C3BB2E000C26000 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F51C3BB2E000C26000 /* SolarDate.cpp */; };
 		33DB98001C3BB2E000C26000 /* XXTimerPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB97F81C3BB2E000C26000 /* XXTimerPicker.m */; };
 		33DB98011C3BB2E000C26000 /* XXTimerPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DB97F91C3BB2E000C26000 /* XXTimerPicker.xib */; };
+		33DE455D1C50CA910026346F /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DE45581C50CA910026346F /* TagView.m */; };
+		33DE455E1C50CA910026346F /* XXTheLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DE455A1C50CA910026346F /* XXTheLabel.m */; };
+		33DE455F1C50CA910026346F /* XXTheLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DE455B1C50CA910026346F /* XXTheLabel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,12 @@
 		33DB97F71C3BB2E000C26000 /* XXTimerPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTimerPicker.h; sourceTree = "<group>"; };
 		33DB97F81C3BB2E000C26000 /* XXTimerPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTimerPicker.m; sourceTree = "<group>"; };
 		33DB97F91C3BB2E000C26000 /* XXTimerPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXTimerPicker.xib; sourceTree = "<group>"; };
+		33DE45571C50CA910026346F /* TagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		33DE45581C50CA910026346F /* TagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
+		33DE45591C50CA910026346F /* XXTheLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTheLabel.h; sourceTree = "<group>"; };
+		33DE455A1C50CA910026346F /* XXTheLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTheLabel.m; sourceTree = "<group>"; };
+		33DE455B1C50CA910026346F /* XXTheLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXTheLabel.xib; sourceTree = "<group>"; };
+		33DE455C1C50CA910026346F /* 使用方法.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "使用方法.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,7 @@
 		33DB94E31C3BB20E00C26000 /* XXTimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				33DE45561C50CA910026346F /* viewButton */,
 				33DB97E81C3BB2E000C26000 /* timerPicker完结版 */,
 				33DB94E71C3BB20E00C26000 /* AppDelegate.h */,
 				33DB94E81C3BB20E00C26000 /* AppDelegate.m */,
@@ -200,6 +210,19 @@
 				33DB97F61C3BB2E000C26000 /* SolarDate.h */,
 			);
 			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
+		33DE45561C50CA910026346F /* viewButton */ = {
+			isa = PBXGroup;
+			children = (
+				33DE45571C50CA910026346F /* TagView.h */,
+				33DE45581C50CA910026346F /* TagView.m */,
+				33DE45591C50CA910026346F /* XXTheLabel.h */,
+				33DE455A1C50CA910026346F /* XXTheLabel.m */,
+				33DE455B1C50CA910026346F /* XXTheLabel.xib */,
+				33DE455C1C50CA910026346F /* 使用方法.h */,
+			);
+			path = viewButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DB94F41C3BB20E00C26000 /* LaunchScreen.storyboard in Resources */,
+				33DE455F1C50CA910026346F /* XXTheLabel.xib in Resources */,
 				33DB98011C3BB2E000C26000 /* XXTimerPicker.xib in Resources */,
 				33DB94F11C3BB20E00C26000 /* Assets.xcassets in Resources */,
 				33DB94EF1C3BB20E00C26000 /* Main.storyboard in Resources */,
@@ -334,8 +358,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DB94EC1C3BB20E00C26000 /* ViewController.m in Sources */,
+				33DE455D1C50CA910026346F /* TagView.m in Sources */,
 				33DB98001C3BB2E000C26000 /* XXTimerPicker.m in Sources */,
 				33DB97FB1C3BB2E000C26000 /* IDJCalendarUtil.mm in Sources */,
+				33DE455E1C50CA910026346F /* XXTheLabel.m in Sources */,
 				33DB97FA1C3BB2E000C26000 /* IDJCalendar.m in Sources */,
 				33DB97FD1C3BB2E000C26000 /* ChineseCalendarDB.cpp in Sources */,
 				33DB94E91C3BB20E00C26000 /* AppDelegate.m in Sources */,
@@ -566,6 +592,7 @@
 				33DB95101C3BB20E00C26000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33DB95111C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +601,7 @@
 				33DB95131C3BB20E00C26000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33DB95141C3BB20E00C26000 /* Build configuration list for PBXNativeTarget "XXTimePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +610,7 @@
 				33DB95161C3BB20E00C26000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
