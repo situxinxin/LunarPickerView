@@ -4,3 +4,5 @@
 
 <img src="/document/img/nongli.png" width = "350">
 <img src="/document/img/calendar.png" width = "350">
+<img src="/document/img/viewButton1.png" width = "350">
+<img src="/document/img/viewButton2.png" width = "350">
